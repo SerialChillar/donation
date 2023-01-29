@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* banner header */
+header {
+    text-align: center;
+    background-image: url(../images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 320px 440px;
+    background-size: cover;
+}
+
+.banner-title {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 65px;
+    margin bottom: 30px;
+}
+
+.banner-description {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-donate {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FF5959;
+}
+
+/* donate today styles */
+.donate-today {
+    text-align: center;
+    margin: 130px 350px;
+}
+
+.donate-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.donate-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+
+.tk-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+
+.tk-amount,
+.tk-amount1 {
+
+    padding: 40px 23px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tk-amount1 {
+    color: #FF5959;
+    background: rgb(255, 218, 218);
+    border-color: #FF5959;
+    border: solid;
+}
+
+.tk-amount {
+    background: #FAFAFA;
+    color: #707070;
+}
+
+/* donate plan styles */
+.donate-section {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    margin: 50px 150px;
+    gap: 24px;
+}
+
+.card-family {
+    background: rgba(79, 157, 166, 0.1);
+
+}
+
+.card-shelter {
+    background: rgba(255, 89, 89, 0.1);
+
+}
+
+.card-education {
+    background-color: bisque;
+}
+
+.img-card {
+    margin-bottom: 25px;
+}
+
+.card-title {
+    margin-bottom: 25px;
+    font-size: 500;
+    font-size: 30px;
+}
+
+.card-family,
+.card-shelter,
+.card-education {
+    padding: 45px 25px;
+    border-radius: 5px;
+}
+
+.card-description {
+    font-size: 20px;
+    color: #707070;
+}
+
+/* contribute styles */
+.contribute-section {
+    display: flex;
+    margin: 130px 250px 130px 150px;
+    gap: 83px;
+}
+
+.contribute-container {}
+
+.contribute-title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.contribute-description {
+    margin-bottom: 20px;
+    color: #707070;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contribute-description1 {
+    margin-bottom: 30px;
+    color: #707070;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.donate-image {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+
+/* email styles */
+.email-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.email-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.email-description {
+    color: #707070;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.email-area {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    margin: 50px 315px;
+    padding: 76px 188px;
+}
+
+.btn-secondary {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    height: 48px;
+    width: 157px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #FF5959;
+}
+
+input {
+    border: none;
+    padding: 0px 10px;
+    background-color: #e5e5e5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 275px;
+    height: 48px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(16, 16, 40);
+    padding: 40px 0 40px 0px;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+.footer-description{
+    color: #FAFAFA;
+}
